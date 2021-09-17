@@ -117,12 +117,18 @@ section .section {
 /* Link style */
 
 .link-primary {
-  max-width: 140px;
+  max-width: 144px;
   padding: 0.6rem 1.2rem;
   background-color: var(--primary-color);
   color: #fff;
   margin: 1rem auto;
   border-radius: 2rem;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  background-color: white;
+  border: 2px solid var(--primary-color);
 }
 
 /* footer style */
@@ -156,4 +162,11 @@ footer .icon .icon-style {
 
 footer .icon .icon-style:hover {
   cursor: pointer;
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
