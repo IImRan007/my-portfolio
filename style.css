@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Rubik:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f59e0b;
+}
+
+/* nav style */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--primary-color);
+  height: 12vh;
+  border-bottom-left-radius: 1.875rem;
+  border-top-right-radius: 1.875rem;
+}
+
+.nav-heading a {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: darkred;
+  font-family: "Rubik", sans-serif;
+}
+
+.list-non-bullet {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 10px 10px;
+}
+
+.list {
+  margin: 0px 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: firebrick;
+  font-size: 1.1rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.navbar .link-active {
+  font-weight: bold;
+}
+
+/* header style */
+
+.main-header {
+  padding: 8px 10px;
+  margin: 18px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header .main-image {
+  max-width: 80%;
+  width: 42vw;
+  height: 64vh;
+}
+
+header .main-heading {
+  padding-top: 30px;
+}
+
+header .main-heading .main-color {
+  color: var(--primary-color);
+}
