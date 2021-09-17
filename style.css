@@ -8,6 +8,7 @@
 
 :root {
   --primary-color: #f59e0b;
+  --off-white: #fef3c7;
 }
 
 /* nav style */
@@ -70,8 +71,54 @@
 
 header .main-heading {
   padding-top: 30px;
+  font-family: "Inconsolata", monospace;
 }
 
 header .main-heading .main-color {
   color: var(--primary-color);
+}
+
+/* section style */
+
+.section {
+  padding: 25px 15px;
+  margin: auto;
+  border-radius: 10px;
+  max-width: 80vw;
+  border: 2px solid var(--primary-color);
+  margin-top: 2rem;
+}
+
+.off-white {
+  background-color: var(--off-white);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .section-heading {
+  margin: 20px;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.6rem;
+}
+
+section .section-para {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.2rem;
+}
+
+section .section {
+  padding: 2rem;
+}
+
+.link-primary {
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin: 1rem auto;
+  border-radius: 2rem;
 }
