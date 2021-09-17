@@ -114,6 +114,8 @@ section .section {
   padding: 2rem;
 }
 
+/* Link style */
+
 .link-primary {
   max-width: 140px;
   padding: 0.6rem 1.2rem;
@@ -121,4 +123,37 @@ section .section {
   color: #fff;
   margin: 1rem auto;
   border-radius: 2rem;
+}
+
+/* footer style */
+
+.footer {
+  background-color: #fef3c780;
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.footer-header {
+  margin-top: 1rem;
+  font-family: "Inconsolata", monospace;
+}
+
+footer .icon {
+  margin: 20px;
+}
+
+footer .icon .icon-style {
+  font-size: 2.5rem;
+  padding: 8px 20px;
+  color: black;
+}
+
+footer .icon .icon-style:hover {
+  cursor: pointer;
 }
