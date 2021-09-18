@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Rubik:wght@400&display=swap");
 
 * {
   margin: 0;
@@ -190,6 +190,29 @@ footer .icon .icon-style:hover {
   font-family: "Inconsolata", monospace;
   text-align: center;
 }
+
+strong {
+  color: darkred;
+}
+
+.blog {
+  margin: 20px 17px;
+  padding: 9px 11px;
+}
+
+.blog h1 {
+  margin-bottom: 22px;
+  font-size: 2rem;
+  font-family: "Inconsolata", monospace;
+  margin-top: 15px;
+}
+
+.blog p {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+/* Responsive Style */
 
 @media screen and (max-width: 360px) {
   .nav-heading {
