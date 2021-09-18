@@ -72,6 +72,7 @@
 header .main-heading {
   padding-top: 30px;
   font-family: "Inconsolata", monospace;
+  text-align: center;
 }
 
 header .main-heading .main-color {
@@ -103,11 +104,13 @@ section .section-heading {
   margin: 20px;
   font-family: "Inconsolata", monospace;
   font-size: 1.6rem;
+  text-align: center;
 }
 
 section .section-para {
-  font-family: "Inconsolata", monospace;
+  font-family: "Rubik", sans-serif;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 section .section {
@@ -180,8 +183,29 @@ footer .icon .icon-style:hover {
 .project-container p {
   padding: 12px;
   font-family: "Rubik", sans-serif;
+  text-align: center;
 }
 
 .project-container h1 {
   font-family: "Inconsolata", monospace;
+  text-align: center;
+}
+
+@media screen and (max-width: 360px) {
+  .nav-heading {
+    margin-left: 20px;
+  }
+
+  .nav-heading a {
+    font-size: 1.2rem;
+  }
+
+  .main-header .main-image {
+    width: 65vw;
+    height: 37vh;
+  }
+
+  .footer .icon .icon-style {
+    font-size: 2.2rem;
+  }
 }
